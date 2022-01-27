@@ -7,7 +7,7 @@ public class DefaultCountingOutRhymer {
 	public static final int ERRNO_STACK_EMPTY = -1;
 	private final int[] numbers = new int[STACK_SIZE];
 
-	public int total = -1;
+	private int total = -1;
 
 	public void countIn(int in) {
 		if (!isFull())
@@ -32,6 +32,10 @@ public class DefaultCountingOutRhymer {
 		if (callCheck())
 			return ERRNO_STACK_EMPTY;
 		return numbers[total--];
+	}
+
+	public int getTotal() {
+		return total;
 	}
 
 //	Kombinacja Ctrl+Alt+Lewo/Prawo (odpowiednik Alt+Lewo/Prawo w Eclipse) nawiguje między ostatnio edytowanymi miejscami w pliku
