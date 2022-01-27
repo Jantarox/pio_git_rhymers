@@ -31,6 +31,10 @@ public class DefaultCountingOutRhymer {
 		return numbers[total--];
 	}
 
+	public int getTotal() {
+		return total;
+	}
+
 //	Kombinacja Ctrl+Alt+Lewo/Prawo (odpowiednik Alt+Lewo/Prawo w Eclipse) nawiguje między ostatnio edytowanymi miejscami w pliku
 
 }
