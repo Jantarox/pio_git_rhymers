@@ -75,4 +75,6 @@ public class RhymersJUnitTest {
 		Assert.assertEquals(EMPTY_STACK_VALUE, result);
 	}
 
+	//TODO: dodać test sprawdzający poprawność wartości zwracanej przez metodę getTotal()
+
 }

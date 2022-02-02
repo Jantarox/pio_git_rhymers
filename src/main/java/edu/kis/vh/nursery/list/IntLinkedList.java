@@ -1,5 +1,6 @@
 package edu.kis.vh.nursery.list;
 
+//TODO: usunąć klasę IntLinkedList, pod warunkiem, że nie będzie ona dalej używana
 public class IntLinkedList {
 
 	private static final int EMPTY_STACK_VALUE = -1;
